@@ -6,8 +6,28 @@
     <link rel="shortcut icon" href="" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <br />
-    .col-1 {width: 20%;}
-    
+    <style>
+* {
+    box-sizing: border-box;
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px white;
+}
+.col-1 {width: 10%;}
+.col-2 {width: 20%;}
+.col-3 {width: 30%;}
+.col-4 {width: 40%;}
+
+</style>
+
   </head>
 
   <body>
