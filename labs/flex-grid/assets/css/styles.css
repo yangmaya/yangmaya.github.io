@@ -54,5 +54,5 @@ body {
 
 .button:active .button-text {
 	background: #f00;
-	transform: rotate(180deg);
+	transform: rotate();
 }
