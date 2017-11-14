@@ -1,0 +1,27 @@
+element.style {
+}
+
+h1, h2 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #EEC6CB;
+    font-family: arial;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 50px;
