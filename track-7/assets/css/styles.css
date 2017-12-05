@@ -7,25 +7,29 @@ body {
   margin: 0;
   padding: 0;
   font-size: 0;
+  text-align: left;
+  color: black;
+  background-color: #000
 }
 
 html, body { height: 100%; }
 
 .wrapper {
-  width: 100%;
-  height: 100%;
+  background: #000000;
+  width: 960px;
+  margin: 0 auto 0 auto;
 }
 
-.column {
-  width: 50%;
-  display: inline-block;
-  height: 100%;
-  padding: 30px;
-}
+em {color: #D68541;}
+
+.no-left-gutter {margin-left: 0; }
+.no-right-gutter {margin-right: 0; }
+.whitespace-fix { font-size: 0; }
 
 .content {
-  background: #f1f1f1;
-  font-size: 20px;
+  background: #0000;
+  font-size: 50px;
+  color: #FFFFFF;
 }
 
 ul, li {
@@ -38,36 +42,17 @@ ul, li {
   border: 1px solid #000;
   padding: 10px 20px;
   display: inline-block;
-  font-size: 20px;
+  font-size: 50px;
   margin: 0 15px 15px 0;
   cursor: pointer;
 }
 
 .nav-item:hover, .nav-item.active {
   background: #000;
-  color: #fff;
+  color: #000;
 }
 
-.content.daisy { background: url('../img/daisy.jpg')}
-.content.poem { background: #F4E1E3; }
-
-.chirps {
-  width: 100%;
-  height: 100%;
-  background: #000;
-  color: #B6D3F4;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.chirpchirp {
-  font-size: 200px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
+.content.poem { font-color: ; background: #f1f1f1; }
 
 .close-button {
   position: absolute;
@@ -77,7 +62,3 @@ ul, li {
   font-family: Helvetica, Arial, sans-serif;
   cursor: pointer;
 }
-
-.audio { opacity: 0; }
-
-.hide { display: none; }
