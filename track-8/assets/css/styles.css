@@ -1,54 +1,36 @@
-* { box-sizing: border-box; }
-
-body {
-  margin: 0;
-  padding: 30px;
-  font-size: 0;
-}
-
-.wrapper {
-  width: 100%;
-}
-
-ul, li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-item {
+body{
+  background-color: white;
   font-size: 20px;
-  border: 1px solid #000;
-  padding: 10px 20px;
-  display: inline-block;
-  margin: 0 20px 20px 0;
-  cursor: pointer;
+  font-family: Arial, "sans-serif";
 }
 
-.nav-item:hover {
-  background: #000;
-  color: #fff;
-}
-
-.logo {
-  height: 165px;
+.slideshow {
+  left: 0%;
+  top: 10%;
+  transform: translate(-50%,-50%);
+  height: 1800px;
+  width: 2000px;
   position: relative;
-  display: inline-block;
-  margin: 0 30px 30px 0;
+  overflow: show;
 }
 
-.logo img {
-  position: absolute;
+.images {
+  background: url(../img/snake.png);
+  background-repeat: repeat;
+  position: relative;
+  left: 50%;
   top: 50%;
-  transform: translateY(-50%);
+  height: 120%;
+  width: 548%;
+  animation: slideshow 40s linear infinite;
 }
 
-.carnation.logo { width: 150px; }
-.rose.logo { width: 150px; }
-.mum.logo { width: 150px; }
+@keyframes slideshow {
+  100%    { left: 0%; }
+  0%  { left: -500%; }
+}
 
-.carnation.logo img { height: 150px; }
-.rose.logo img { height: 150px; }
-.mum.logo img { height: 150px; }
-
+img{
+  width:100%;
+}
 

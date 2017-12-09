@@ -1,6 +1,19 @@
-.square {
-    height: 2000px;
-    width: 1095px;
+.container {
+        position: relative;
+        text-align: center;
+        color: #000;
+}
+
+.rotten{
+    height: 500px;
+    width: 200px;
+    background-color: #000;
+    margin: 0 auto 0 auto;
+}
+
+.sweetest {
+    height: 500px;
+    width: 200px;
     background-color: #000;
     margin: 0 auto 0 auto;
 }
@@ -12,7 +25,7 @@ div {
 body {
     margin: 0;
     padding: 0;
-    font-size: 300;
+    font-size: 10;
     font-family: source code pro;
-    color: black;
+    color: white;
 }
