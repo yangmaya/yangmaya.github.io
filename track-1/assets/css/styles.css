@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: #00000;
+}
+
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.bunny {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.square {
+    height: 10000px;
+    width: 1095px;
+    background-color: #000;
+    margin: 0 auto 0 auto;
+}
+
+div {
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 300;
+    font-family: source code pro;
+    color: black;
+}
+
+
