@@ -11,13 +11,6 @@
     transform: translate(-50%);
 }
 
-.bunny {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
 .square {
     height: 10000px;
     width: 1095px;

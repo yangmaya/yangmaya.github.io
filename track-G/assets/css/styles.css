@@ -1,0 +1,35 @@
+body{
+  background-color:black;
+  font-size: 20px;
+}
+
+.slideshow {
+  left: 50%;
+  top: 50%;
+  transform: translate( -50%, -200%);
+  height:200px;
+  width: 1300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.images {
+  background: url(../img/rosemoon.png);
+  background-repeat:no-repeat;
+  position: relative;
+  left: 50%;
+  top: 0%;
+  height: 120%;
+  width: 90%;
+  animation: slideshow 35s linear infinite;
+}
+@keyframes slideshow {
+  0%    { left: 0; }
+  100%  { left: -500%; }
+}
+
+img{
+  width:100%;
+}
+
+
