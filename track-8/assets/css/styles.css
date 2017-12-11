@@ -1,28 +1,28 @@
 body{
-  background-color: white;
+  background: white;
   font-size: 20px;
   font-family: Arial, "sans-serif";
 }
 
 .slideshow {
   left: 0%;
-  top: 10%;
-  transform: translate(-50%,-50%);
-  height: 1800px;
-  width: 2000px;
+  top: 0%;
+  transform: translate(-0%,-50%);
+  height: 200px;
+  width: 1300px;
   position: relative;
   overflow: show;
 }
 
-.images {
+.text {
   background: url(../img/snake.png);
   background-repeat: repeat;
   position: relative;
   left: 50%;
-  top: 50%;
-  height: 120%;
+  top: 40%;
+  height: 500%;
   width: 548%;
-  animation: slideshow 40s linear infinite;
+  animation: 40s linear infinite;
 }
 
 @keyframes slideshow {
