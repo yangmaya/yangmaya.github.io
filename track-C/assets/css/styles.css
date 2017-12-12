@@ -1,22 +1,25 @@
-body{
-  background-color:white;
-  font-size: 20px;
-}
+ .images {
 
-
-#images {
-  
   position: relative;
-  left: 50px;
-  top: 0px;
-  height: 200px;
-  width: 1300px;
-  animation-name: slideshow 5s;
-  animation-iteration-count: infinite;
-  transform: rotate(0deg);
-  
-}
+  top: 0vh;
+  left: 0vw;
+  animation-name: turn;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    color: red;
+ }
 
-@keyframes slideshow {
- 0% {transform: rotate(45deg);}
+
+@keyframes turn {
+    0%{
+       transform: translateX(150%) 
+    }
+    50% {
+      transform: translateX(0) 
+    }
+    100%
+    {
+      transform: translateX(-160%) 
+
+    }
 }
