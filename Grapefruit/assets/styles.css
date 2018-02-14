@@ -1,0 +1,35 @@
+body {
+	font-family: 'Roboto 900', sans-serif;
+	background-color: black;
+}
+
+.number {
+    color: #D0021B;
+    font-family: 'Roboto 900';
+    font-size: 50px;
+    position: absolute;
+    top: 0px;
+    right: 1200px;
+} 
+
+.poem {
+    color: #FFFFFF;
+    font-family: 'Roboto 900';
+	font-size: 100px;
+	position: absolute;
+    top: 50px;
+    right: 200px;
+    width:1000px;
+    height:1000px;
+
+} 
+
+.keepreading {
+    color: #D0021B;
+    font-family: 'Roboto 900';
+    font-size: 20px;
+    position: absolute;
+    top:660px;
+    right: 200px;
+    transform: rotate(0deg);
+} 
