@@ -33,3 +33,15 @@ body {
     right: 200px;
     transform: rotate(0deg);
 } 
+
+.grapefruit {
+    color: #C0C0C0;
+    font-family: 'Roboto 900';
+    font-size: 20px;
+    position: absolute;
+    top:0px;
+    right: 1200px;
+    width:660px;
+    height:48px;
+    transform: rotate(-90deg);
+} 
