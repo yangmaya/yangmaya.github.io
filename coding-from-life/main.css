@@ -1,0 +1,243 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: #E5D5C6;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.table {
+  top:45%;
+  background: #A9C4E3;
+  position: absolute;
+  left: 25%;
+  width: 45%;
+  height: 50%;
+  -webkit-transform: skew(-40deg);
+     -moz-transform: skew(-40deg);
+       -o-transform: skew(-40deg);
+}
+
+.book-bottom {
+  top:50%;
+  background: #B4B9BE;
+  position: absolute;
+  left: 50%;
+  width: 20%;
+  height: 15%;
+  -webkit-transform: skew(-40deg);
+     -moz-transform: skew(-40deg);
+       -o-transform: skew(-40deg);
+}
+
+.book-bottom-pages {
+  top:63%;
+  background: #B4B9BE;
+  position: absolute;
+  left: 46%;
+  width: 20%;
+  height: 2%;
+}
+
+.book-middle {
+  top:48%;
+  background: #DBDFE4;
+  position: absolute;
+  left: 50%;
+  width: 20%;
+  height: 15%;
+  -webkit-transform: skew(-40deg);
+     -moz-transform: skew(-40deg);
+       -o-transform: skew(-40deg);
+}
+
+.book-middle-pages-front {
+  top:53.2%;
+  background: #ECEFF3;
+  position: absolute;
+  left: 46%;
+  width: 20%;
+  height: 10%;
+}
+
+.book-middle-pages-back {
+  top:38%;
+  background: #DBDFE4;
+  position: absolute;
+  left: 53.7%;
+  width: 20%;
+  height: 10%;
+}
+
+.book-top {
+  top:38%;
+  background: #E9BAA9;
+  position: absolute;
+  left: 50%;
+  width: 20%;
+  height: 15%;
+  -webkit-transform: skew(-40deg);
+     -moz-transform: skew(-40deg);
+       -o-transform: skew(-40deg);
+}
+
+.book-top-pages-front {
+  top:47%;
+  background: #FFE5DC;
+  position: absolute;
+  left: 46%;
+  width: 20%;
+  height: 6%;
+}
+
+.book-top-pages-back {
+  top:31.999%;
+  background: #E9BAA9;
+  position: absolute;
+  left: 53.7%;
+  width: 20%;
+  height: 6%;
+}
+
+.book-top-cover {
+  top:31.999%;
+  background: #FF4A0C;
+  position: absolute;
+  left: 50%;
+  width: 20%;
+  height: 15%;
+  -webkit-transform: skew(-40deg);
+     -moz-transform: skew(-40deg);
+       -o-transform: skew(-40deg);
+}
+
+.vase {
+  top:20%;
+  background-color: #EDEFF2;
+  position: absolute;
+  left: 56%;
+  display:block;
+   width: 10vw;
+   height: 12vw;
+   -webkit-border-radius: 63vw 63vw 63vw 63vw / 108vw 108vw 72vw 72vw;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+
+.flower-stem {
+  top:15.5%;
+  background: #568026;
+  position: absolute;
+  left: 60.7%;
+  width: .5vw;
+  height: 3vw;
+}
+
+.pedal-1 {
+  top:-34%;
+  background: #E6B4DD;
+  position: absolute;
+  left: 8%;
+  width: 30px;
+  height: 5px;
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  transform: rotate(30deg);
+}
+
+.pedal-2 {
+  top:-34%;
+  background: #E6B4DD;
+  position: absolute;
+  left: 40%;
+  width: 30px;
+  height: 5px;
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  transform: rotate(-30deg);
+}
+
+.pedal-3 {
+  top:-40%;
+  background: #E6B4DD;
+  position: absolute;
+  left: 35%;
+  width: 30px;
+  height: 5px;
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  transform: rotate(-60deg);
+}
+
+.pedal-4 {
+  top:-45%;
+  background: #E6B4DD;
+  position: absolute;
+  left: 25%;
+  width: 30px;
+  height: 5px;
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  transform: rotate(-90deg);
+}
+
+.pedal-5 {
+  top:-40%;
+  background: #E6B4DD;
+  position: absolute;
+  left: 15%;
+  width: 30px;
+  height: 5px;
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  transform: rotate(60deg);
+}
+
+.book-blue-back {
+  top:50%;
+  background: #374A6D;
+  position: absolute;
+  left: 52%;
+  width: 12%;
+  height: 28%;
+}
+
+.book-blue-pages {
+  top:52%;
+  background: #222222;
+  position: absolute;
+  left: 52%;
+  width: 11%;
+  height: 27%;
+}
+
+.book-blue-cover {
+  top:50%;
+  background: #254379;
+  position: absolute;
+  left: 52%;
+  width: 12%;
+  height: 28%;
+   -webkit-transform: skew(10deg);
+     -moz-transform: skew(10deg);
+       -o-transform: skew(10deg);
+}
