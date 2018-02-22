@@ -1,0 +1,235 @@
+body {
+	font-family: 'typewriter', sans-serif;
+	background-color: #C23446;
+}
+
+.evelin {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+} 
+
+.evelin:hover:after {
+    content: url(../imgs/evelin.png);
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 5px;
+    height: 5px;
+}
+
+.vg {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+} 
+
+.vg:hover:after {
+    content: url(../imgs/vg.png);
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 5px;
+    height: 5px;
+}
+.yg {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 70px;
+    left: 1000px;
+} 
+
+.yg:hover:after {
+    content: url(../imgs/yg.png);
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 10px;
+    height: 10px;
+}
+
+.sg {
+   color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+} 
+
+.sg:hover:after {
+    content: url(../imgs/sg.png);
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 5px;
+    height: 5px;
+}
+.ak {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 130px;
+    left: 1000px;
+} 
+
+.ak:hover:after {
+    content: url(../imgs/ak.png);
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 5px;
+    height: 5px;
+}
+
+.pk {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 160px;
+    left: 1000px;
+} 
+
+.soyeon {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 190px;
+    left: 1000px;
+} 
+
+.soyeon:hover:after {
+    content: url(../imgs/soyeon.png);
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 5px;
+    height: 5px;
+}
+
+.seowon {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 220px;
+    left: 1000px;
+} 
+
+.seowon:hover:after {
+    content: url(../imgs/seowon.png);
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 5px;
+    height: 5px;
+}
+
+.jl {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+} 
+.jl:hover:after {
+    content: url(../imgs/jl.png);
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 5px;
+    height: 5px;
+}
+.emily {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 280px;
+    left: 1000px;
+} 
+
+.emily:hover:after {
+    content: url(../imgs/emily.png);
+   position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 5px;
+    height: 5px;
+}
+
+.hc {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 310px;
+    left: 1000px;
+} 
+
+.hc:hover:after {
+    content: url(../imgs/hc.png);
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 5px;
+    height: 5px;
+}
+
+.kn {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 340px;
+    left: 1000px;
+} 
+
+.kn:hover:after {
+    content: url(../imgs/kn.png);
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 5px;
+    height: 5px;
+}
+
+.vp {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 370px;
+    left: 1000px;
+} 
+
+.ew {
+    color: #FFFFFF;
+    font-family: 'typewriter';
+    font-size: 25px;
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+} 
+
+.ew:hover:after {
+    content: url(../imgs/ew.png);
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 5px;
+    height: 5px;
+}
+
