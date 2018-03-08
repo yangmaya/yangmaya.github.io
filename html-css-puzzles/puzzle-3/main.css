@@ -1,0 +1,77 @@
+html,body { width: 100%; height: 100%; }
+body{
+	margin:0%;
+}
+.rec1 {
+	background: #CBDD38;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	display: inline-block;
+}
+
+.rec2 {
+	background: white;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	display: inline-block;
+}
+
+.rec3 {
+	background: #CBDD38;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	display: inline-block;
+}
+
+.rec4 {
+	background: white;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	display: inline-block;
+}
+
+.rec5 {
+	background: #617D8C;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	display: inline-block;
+}
+
+.rec6 {
+	background: white;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	display: inline-block;
+}
+
+.rec7 {
+	background: #CBDD38;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	display: inline-block;
+}
+
+.rec8 {
+	background: white;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	display: inline-block;
+}
+
+.rec9 {
+	background: #CBDD38;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	display: inline-block;
+}
+
+/* Your styles go here */

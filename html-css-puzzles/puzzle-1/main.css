@@ -1,0 +1,12 @@
+/* Your styles go here */
+body {
+	font-size: 30px;
+	font-family: 'Asap';
+}
+
+.box {
+	padding: 20px;
+    background:#CFD8DD;
+    display: inline-block;
+    margin: 5px;
+}/* Your styles go here */

@@ -1,0 +1,25 @@
+/* Your styles go here */
+@media (min-width: 768px) {
+  body {
+    font-size: 22px;
+  }
+}
+
+.box {
+	background: white;
+	padding: 30px;
+    border: 5px solid black;
+    margin: 30px;
+    width: 80%;
+    display: inline-block;
+}
+
+.quote {
+	font-size: 30px;
+	font-family: 'Asap';
+}
+
+.author {
+	font-size: 20px;
+	font-family:'Anonymous Pro';
+}/* Your styles go here */

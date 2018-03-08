@@ -147,13 +147,21 @@ body {
   height: 3vw;
 }
 
+.pedals {
+  top:-34%;
+  position: absolute;
+  left: 8%;
+  width: 50%;
+  height: 50%;
+}
+
 .pedal-1 {
   top:-34%;
   background: #E6B4DD;
   position: absolute;
   left: 8%;
-  width: 30px;
-  height: 5px;
+  width: 30%;
+  height: 5%;
   -moz-border-radius: 100px / 50px;
   -webkit-border-radius: 100px / 50px;
   border-radius: 100px / 50px;
@@ -165,7 +173,7 @@ body {
   background: #E6B4DD;
   position: absolute;
   left: 40%;
-  width: 30px;
+  width: 30%;
   height: 5px;
   -moz-border-radius: 100px / 50px;
   -webkit-border-radius: 100px / 50px;
@@ -178,8 +186,8 @@ body {
   background: #E6B4DD;
   position: absolute;
   left: 35%;
-  width: 30px;
-  height: 5px;
+  width: 30%;
+  height: 5%;
   -moz-border-radius: 100px / 50px;
   -webkit-border-radius: 100px / 50px;
   border-radius: 100px / 50px;
@@ -191,8 +199,8 @@ body {
   background: #E6B4DD;
   position: absolute;
   left: 25%;
-  width: 30px;
-  height: 5px;
+  width: 30%;
+  height: 5%;
   -moz-border-radius: 100px / 50px;
   -webkit-border-radius: 100px / 50px;
   border-radius: 100px / 50px;
@@ -204,8 +212,8 @@ body {
   background: #E6B4DD;
   position: absolute;
   left: 15%;
-  width: 30px;
-  height: 5px;
+  width: 30%;
+  height: 5%;
   -moz-border-radius: 100px / 50px;
   -webkit-border-radius: 100px / 50px;
   border-radius: 100px / 50px;
@@ -231,13 +239,11 @@ body {
 }
 
 .book-blue-cover {
-  top:50%;
+  top:51%;
   background: #254379;
   position: absolute;
   left: 52%;
-  width: 12%;
-  height: 28%;
-   -webkit-transform: skew(10deg);
-     -moz-transform: skew(10deg);
-       -o-transform: skew(10deg);
+  width: 8%;
+  height: 30%;
+  transform: skew(15deg) rotate(15deg);
 }
