@@ -1,0 +1,53 @@
+/* Your styles go here */
+body {
+	background: black;
+	border: 0px;
+	margin: 90px;
+	padding: 0px;
+}
+
+.main {
+	font-size: 20px;
+	font-family: 'Volkron';
+	color: #64ACFF;
+	text-align: center;
+	position: fixed; 
+	top: 10%;
+    left: 50%;
+     transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.meals {
+	font-size: 100px;
+	font-family: 'Volkron';
+	color: white;
+	text-align: center;
+	position: fixed;
+	top: 20%;
+    left: 50%;
+     transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+
+.image {
+	height: 100%;
+    width: 50%;
+	text-align: center;
+	position: fixed;
+	top: 15%;
+    left: 15%;
+}
+
+.caption {
+	font-size: 50px;
+	font-family: 'Volkron';
+	color: white;
+	text-align: left;
+	position: fixed;
+	top: 50%;
+    left: 50%;
+     transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}

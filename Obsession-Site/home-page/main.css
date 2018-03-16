@@ -7,20 +7,19 @@ body {
 }
 
 .main {
-	font-size: 30px;
+	font-size: 20px;
 	font-family: 'Volkron';
-	color: white;
-	margin: 0px;
+	color: #64ACFF;
 	text-align: center;
-	position: fixed;
-	top:10%;
+	position: fixed; 
+	top: 10%;
     left: 50%;
      transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
 }
 
 .meals {
-	font-size: 140px;
+	font-size: 100px;
 	font-family: 'Volkron';
 	color: white;
 	border: 0px;
@@ -28,7 +27,7 @@ body {
 	padding: 0px;
 	text-align: center;
 	position: fixed;
-	top: 55%;
+	top: 45%;
     left: 50%;
      transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
@@ -40,8 +39,8 @@ body {
 
 .image {
     display: inline-block;
-	width:23%;
-	height:12%;
+	width:20%;
+	height:10%;
 }
 
 img {
