@@ -1,0 +1,118 @@
+/* Your styles go here */
+body {
+	background: black;
+	border: 0%;
+	margin: 0%;
+	padding: 5%;
+}
+
+.opening-cover {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*background-color: rgba(34, 101, 178, 0.5);*/
+	z-index: 1;
+	transition: opacity 2s;
+}
+
+.opening-cover-background {
+	background-color: #2265B2;
+	opacity: 0.5;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.opening-cover.active {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.opening-cover-text {
+	font-size: 20vw;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.main {
+	font-size: 30px;
+	font-family: 'OleoScript-Regular';
+	color: white;
+	text-align: center;
+	position: fixed; 
+	top: 6%;
+    left: 50%;
+     transform: translate(-50%,-50%) rotate(-10deg);
+   
+}
+
+.images{
+	text-align: center;
+	border-width: 0%;
+	padding: 3%;
+	margin: 0%;
+}
+
+.b-image {
+    display: inline-block;
+	width:30%;
+	height:10%;
+	border-width: 0%;
+	padding: 1.5%;
+	margin: 0%;
+	filter: sepia(100%) hue-rotate(-70deg) saturate(150%);
+}
+
+.l-image {
+    display: inline-block;
+	width:30%;
+	height:10%;
+	border-width: 0%;
+	padding: 1.5%;
+	margin: 0%;
+	filter: sepia(100%) hue-rotate(500deg) saturate(150%);
+}
+
+.d-image {
+    display: inline-block;
+	width:30%;
+	height:10%;
+	border-width: 0%;
+	padding: 1.5%;
+	margin: 0%;
+	filter: sepia(100%) hue-rotate(-30deg) saturate(150%);
+}
+
+.de-image {
+    display: inline-block;
+	width:30%;
+	height:10%;
+	border-width: 0%;
+	padding: 1.5%;
+	margin: 0%;
+	filter: sepia(100%) hue-rotate(-50deg) saturate(150%);
+}
+
+.meal {
+    display: inline-block;
+	width:30%;
+	height:10%;
+	border-width: 0%;
+	padding: 1.5%;
+	margin: 0%;
+}
+
+img {
+	max-width: 90%;
+	height: auto;
+}
+
