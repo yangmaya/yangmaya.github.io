@@ -72,6 +72,10 @@ body {
 	filter: sepia(100%) hue-rotate(-70deg) saturate(150%);
 }
 
+.b-image:hover {
+    filter: sepia(0%) hue-rotate(0deg) saturate(100%);
+}
+
 .l-image {
     display: inline-block;
 	width:30%;
@@ -82,6 +86,10 @@ body {
 	filter: sepia(100%) hue-rotate(500deg) saturate(150%);
 }
 
+.l-image:hover {
+    filter: sepia(0%) hue-rotate(0deg) saturate(100%);
+}
+
 .d-image {
     display: inline-block;
 	width:30%;
@@ -89,7 +97,11 @@ body {
 	border-width: 0%;
 	padding: 1.5%;
 	margin: 0%;
-	filter: sepia(100%) hue-rotate(-30deg) saturate(150%);
+	filter: sepia(100%) hue-rotate(90deg) saturate(100%);
+}
+
+.d-image:hover {
+    filter: sepia(0%) hue-rotate(0deg) saturate(100%);
 }
 
 .de-image {
@@ -99,7 +111,11 @@ body {
 	border-width: 0%;
 	padding: 1.5%;
 	margin: 0%;
-	filter: sepia(100%) hue-rotate(-50deg) saturate(150%);
+	filter: sepia(100%) hue-rotate(200deg) saturate(150%);
+}
+
+.de-image:hover {
+    filter: sepia(0%) hue-rotate(0deg) saturate(100%);
 }
 
 .meal {
