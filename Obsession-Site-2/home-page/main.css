@@ -6,6 +6,9 @@ body {
 	padding: 5%;
 }
 
+a {
+	text-decoration: none;
+}
 .opening-cover {
 	position: fixed;
 	top: 0;
@@ -52,6 +55,7 @@ body {
 	top: 6%;
     left: 50%;
      transform: translate(-50%,-50%) rotate(-10deg);
+    z-index: 1;
    
 }
 
