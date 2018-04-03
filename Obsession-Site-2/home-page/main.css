@@ -139,16 +139,32 @@ a {
     filter: sepia(0%) hue-rotate(0deg) saturate(100%);
 }
 
+#breakfast:hover {
+    background: white;
+}
+
 #lunch:hover ~ .l-image {
     filter: sepia(0%) hue-rotate(0deg) saturate(100%);	
+}
+
+#lunch:hover {
+    background: white;
 }
 
 #dinner:hover ~ .d-image {
     filter: sepia(0%) hue-rotate(0deg) saturate(100%);	
 }
 
+#dinner:hover {
+    background: white;
+}
+
 #dessert:hover ~ .de-image {
     filter: sepia(0%) hue-rotate(0deg) saturate(100%);	
+}
+
+#dessert:hover {
+    background: white;
 }
 
 img {
