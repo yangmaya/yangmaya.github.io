@@ -1,0 +1,1 @@
+var labTeacher = 'myWeekend','cooked a new dinner recipe with friends';
