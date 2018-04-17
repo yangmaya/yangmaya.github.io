@@ -1,10 +1,25 @@
+font-family: 'Roboto', sans-serif;
+
 body {
 	background: white;
-	max-width: 1300px;
+	max-width: 600px;
 	text-align: center;
 }
 
+.title {
+	font-family: 'Roboto', black;
+	font-size: 100px;
+	position: fixed;
+	padding-left: 30px;
+
+}
+
 .squares {
+	border: 0px;
+	padding: 0px;
+	margin: 50px;
+	text-align: center;
+	padding-top: 170px;
 
 }
 
@@ -14,7 +29,7 @@ body {
 	background: #DB041F;
 	border: 0px;
 	padding: 0px;
-	margin: -1.6px;
+	margin: 10px;
 	display: inline-block;
 }
 
@@ -28,7 +43,7 @@ body {
 	background: #DB041F;
 	border: 0px;
 	padding: 0px;
-	margin: -1.6px;
+	margin: 10px;
 	display: inline-block;
 }
 
@@ -42,7 +57,7 @@ body {
 	background: #DB041F;
 	border: 0px;
 	padding: 0px;
-	margin: -1.6px;
+	margin: 10px;
 	display: inline-block;
 }
 
@@ -56,7 +71,7 @@ body {
 	background: #DB041F;
 	border: 0px;
 	padding: 0px;
-	margin: -1.6px;
+	margin: 10px;
 	display: inline-block;
 }
 
@@ -70,7 +85,7 @@ body {
 	background: #DB041F;
 	border: 0px;
 	padding: 0px;
-	margin: -1.6px;
+	margin: 10px;
 	display: inline-block;
 }
 
@@ -84,7 +99,7 @@ body {
 	background: #DB041F;
 	border: 0px;
 	padding: 0px;
-	margin: -1.6px;
+	margin: 10px;
 	display: inline-block;
 }
 
@@ -98,7 +113,7 @@ body {
 	background: #DB041F;
 	border: 0px;
 	padding: 0px;
-	margin: -1.6px;
+	margin: 10px;
 	display: inline-block;
 }
 
@@ -112,7 +127,7 @@ body {
 	background: #DB041F;
 	border: 0px;
 	padding: 0px;
-	margin: -1.6px;
+	margin: 10px;
 	display: inline-block;
 }
 
@@ -126,7 +141,7 @@ body {
 	background: #DB041F;
 	border: 0px;
 	padding: 0px;
-	margin: -1.6px;
+	margin: 10px;
 	display: inline-block;
 }
 
@@ -140,7 +155,7 @@ body {
 	background: #DB041F;
 	border: 0px;
 	padding: 0px;
-	margin: -1.6px;
+	margin: 10px;
 	display: inline-block;
 }
 
@@ -154,7 +169,7 @@ body {
 	background: #DB041F;
 	border: 0px;
 	padding: 0px;
-	margin: -1.6px;
+	margin: 10px;
 	display: inline-block;
 }
 
@@ -168,7 +183,7 @@ body {
 	background: #DB041F;
 	border: 0px;
 	padding: 0px;
-	margin: -1.6px;
+	margin: 10px;
 	display: inline-block;
 }
 
