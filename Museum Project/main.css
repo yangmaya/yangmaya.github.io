@@ -1,0 +1,239 @@
+body {
+	background: white;
+	max-width: 1300px;
+	text-align: center;
+}
+
+.squares {
+
+}
+
+.s1 {
+	width: 400px;
+	height: 400px;
+	background: #DB041F;
+	border: 0px;
+	padding: 0px;
+	margin: -1.6px;
+	display: inline-block;
+}
+
+.s1:hover {
+	background: url('assets/images/image1.jpg') bottom;
+}
+
+.s2 {
+	width: 400px;
+	height: 400px;
+	background: #DB041F;
+	border: 0px;
+	padding: 0px;
+	margin: -1.6px;
+	display: inline-block;
+}
+
+.s2:hover {
+	background: url('assets/images/image2.jpg') bottom;
+}
+
+.s3 {
+	width: 400px;
+	height: 400px;
+	background: #DB041F;
+	border: 0px;
+	padding: 0px;
+	margin: -1.6px;
+	display: inline-block;
+}
+
+.s3:hover {
+	background: url('assets/images/image3.jpg') bottom;
+}
+
+.s4 {
+	width: 400px;
+	height: 400px;
+	background: #DB041F;
+	border: 0px;
+	padding: 0px;
+	margin: -1.6px;
+	display: inline-block;
+}
+
+.s4:hover {
+	background: url('assets/images/image4.jpg') bottom;
+}
+
+.s5 {
+	width: 400px;
+	height: 400px;
+	background: #DB041F;
+	border: 0px;
+	padding: 0px;
+	margin: -1.6px;
+	display: inline-block;
+}
+
+.s5:hover {
+	background: url('assets/images/image5.jpg') bottom;
+}
+
+.s6 {
+	width: 400px;
+	height: 400px;
+	background: #DB041F;
+	border: 0px;
+	padding: 0px;
+	margin: -1.6px;
+	display: inline-block;
+}
+
+.s6:hover {
+	background: url('assets/images/image6.jpg') bottom;
+}
+
+.s7 {
+	width: 400px;
+	height: 400px;
+	background: #DB041F;
+	border: 0px;
+	padding: 0px;
+	margin: -1.6px;
+	display: inline-block;
+}
+
+.s7:hover {
+	background: url('assets/images/image7.jpg') bottom;
+}
+
+.s8 {
+	width: 400px;
+	height: 400px;
+	background: #DB041F;
+	border: 0px;
+	padding: 0px;
+	margin: -1.6px;
+	display: inline-block;
+}
+
+.s8:hover {
+	background: url('assets/images/image8.jpg') bottom;
+}
+
+.s9 {
+	width: 400px;
+	height: 400px;
+	background: #DB041F;
+	border: 0px;
+	padding: 0px;
+	margin: -1.6px;
+	display: inline-block;
+}
+
+.s9:hover {
+	background: url('assets/images/image9.jpg') bottom;
+}
+
+.s10 {
+	width: 400px;
+	height: 400px;
+	background: #DB041F;
+	border: 0px;
+	padding: 0px;
+	margin: -1.6px;
+	display: inline-block;
+}
+
+.s10:hover {
+	background: url('assets/images/image10.jpg') bottom;
+}
+
+.s11 {
+	width: 400px;
+	height: 400px;
+	background: #DB041F;
+	border: 0px;
+	padding: 0px;
+	margin: -1.6px;
+	display: inline-block;
+}
+
+.s11:hover {
+	background: url('assets/images/image11.jpg') bottom;
+}
+
+.s12 {
+	width: 400px;
+	height: 400px;
+	background: #DB041F;
+	border: 0px;
+	padding: 0px;
+	margin: -1.6px;
+	display: inline-block;
+}
+
+.s12:hover {
+	background: url('assets/images/image12.jpg') bottom;
+}
+
+
+
+#s1:hover ~ .s5 {
+    background: url('assets/images/text_1.png') bottom;
+}
+#s1:hover ~ .s3 {
+    background: url('assets/images/anita.jpg') bottom;
+}
+
+#s2:hover ~ .s4 {
+    background: url('assets/images/text_4.png') bottom;
+}
+#s2:hover ~ .s5 {
+    background: url('assets/images/anita.jpg') bottom;
+}
+
+#s3:hover ~ .s4 {
+	background: url('assets/images/text_5.png') bottom;
+}
+
+#s4:hover ~ .s5 {
+    background: url('assets/images/text_2.png') bottom;
+}
+
+#s5:hover ~ .s6 {
+    background: url('assets/images/text_3.png') bottom;
+}
+
+#s6:hover ~ .s4 {
+    background: url('assets/images/anita.jpg') bottom;
+}
+#s6:hover ~ .s7 {
+    background: url('assets/images/text_6.png') bottom;
+}
+
+#s7:hover ~ .s9 {
+    background: url('assets/images/text_7.png') bottom;
+}
+#s7:hover ~ .s10 {
+    background: url('assets/images/anita.jpg') bottom;
+}
+
+#s8:hover ~ .s10 {
+    background: url('assets/images/text_9.png') bottom;
+}
+#s8:hover ~ .s9 {
+    background: url('assets/images/anita.jpg') bottom;
+}
+
+#s9:hover ~ .s12 {
+    background: url('assets/images/text_8.png') bottom;
+}
+
+#s10:hover ~ .s11 {
+    background: url('assets/images/text_10.png') bottom;
+}
+
+#s11:hover ~ .s12 {
+    background: url('assets/images/text_11.png') bottom;
+}
+
