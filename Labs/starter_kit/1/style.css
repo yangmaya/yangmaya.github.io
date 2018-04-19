@@ -1,0 +1,22 @@
+/* Your styles go here */
+  body {
+    text-align: center;
+}
+
+
+.box {
+	background: white;
+	padding: 20px;
+    border: 2px solid black;
+    margin: 30px;
+    display: inline-block;
+}
+
+.text {
+	font-size: 20px;
+}
+
+.gulls {
+	font-size: 90px;
+	display: none;
+}

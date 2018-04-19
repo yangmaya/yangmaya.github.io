@@ -1,0 +1,8 @@
+/* Your styles go here */
+.seagull {
+	transition: margin 0.4s;
+}
+
+.selected {
+    margin-left: 700px;
+}
