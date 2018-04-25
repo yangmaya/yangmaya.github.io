@@ -1,33 +1,86 @@
 video {
-  width: 90%;
+  width: 65%;
 }
 
-/* structure */
+picture {
+	width: 50%;
+}
+
+ body {
+}
+
 
 .content {
-	max-width: 1000px;
-  /*width: 816px;*/
 	padding: 0px 0px;
-	margin: auto;
-	font-weight: 300;
-  	height: -webkit-calc(100% - 0px);
-   	height: calc(0% - 0px);
-   	text-align: center;
    	display: block;
    	position: absolute;
+   	padding-top: 0px;
+   	text-align: center;
 }
 
 .content {
-	margin-bottom: 50px;
+	margin-bottom: 0px;
+	margin-left: 280px;
+	margin-top: -200px;
 }
 
-.pic {
-	width: 10%;
-	position: absolute;
-	left: 500px;
+.desert {
+	left: -220px;
+    top: 320px;
+    position: absolute;
 	display: block;
-	top: -1000;
-	 z-index: ;
-	 left: 700px;
-    top: 150px;
+}
+
+.leaves {
+	left: 450px;
+    top: 450px;
+    position: absolute;
+	display: block;
+}
+
+.light {
+	left: 70px;
+    top: 1000px;
+    position: absolute;
+	display: block;
+}
+
+.titlebox {
+	background: white;
+	padding: 0px;
+    border: 2px ;
+    border-color: #6383B7;
+    margin: 30px;
+    margin-top: 40px;
+}
+
+.title {
+  	font-family: 'Cormorant Garamond', serif;
+ 	font-size: 40px;
+  	color: #6383B7;
+  	margin: 10px;
+}
+
+.subhead {
+  	font-family: 'Cormorant Garamond', serif;
+ 	font-size: 15px;
+  	color: #6383B7;
+  	margin-bottom: 20px;
+  	margin-top: -30px;
+  	margin-left: 45px;
+}
+
+.info {
+  	font-family: 'Cormorant Garamond', serif;
+ 	font-size: 15px;
+  	color: black;
+  	margin: 15px;
+  	margin-left: 45px;
+  	margin-bottom: 20px;
+}
+
+.categories {
+  	font-family: 'Cormorant Garamond', serif;
+ 	font-size: 15px;
+  	color: #6383B7;
 }
