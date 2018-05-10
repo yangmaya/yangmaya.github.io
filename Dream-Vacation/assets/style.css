@@ -1,7 +1,11 @@
-
 body {
 	height: auto;
 	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
 
 .column {
@@ -69,6 +73,7 @@ body {
 }
 
 .text-box {
+	text-decoration: none
 	/*height: auto;
 	width: 45%;
 	position: absolute;
@@ -82,10 +87,12 @@ body {
 	font-size: 80px;
 	color: black;
 	margin-left: 30px;
+	text-decoration: none
 }
 
 .text-item.active {
 	color: #FF7183;
+	text-decoration: none
 }
 
 .dot.active {
