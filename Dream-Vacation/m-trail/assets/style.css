@@ -62,3 +62,18 @@ audio {
 	position: fixed;
 	border:2px solid #F85065;
 }
+
+.home-dot:hover {
+	background: #F6ADB6;
+	border:2px solid white;
+}
+
+.left-dot:hover {
+	background: #60B300;
+	border:2px solid white;
+}
+
+.right-dot:hover {
+	background: #FF9F00;
+	border:2px solid white;
+}

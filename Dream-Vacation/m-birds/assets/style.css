@@ -13,15 +13,11 @@ body {
     position: absolute;
 }*/
 
-.momo img {
-	height: 500px;
-	width: auto;
-}
-
-.momo {
+audio {
 	position: fixed;
-	top: 20%;
+	top: 30%;
 	left: 34%;
+	position: absolute;
 }
 
 .text {
@@ -29,7 +25,7 @@ body {
 	font-size: 50px;
 	color: white;
 	top: 50%;
-	left: 10%;
+	left: 9%;
 	position: absolute;
 }
 
@@ -64,4 +60,19 @@ body {
 	border-radius: 50px;
 	position: fixed;
 	border:2px solid #F85065;
+}
+
+.home-dot:hover {
+	background: #F6ADB6;
+	border:2px solid white;
+}
+
+.left-dot:hover {
+	background: #60B300;
+	border:2px solid white;
+}
+
+.right-dot:hover {
+	background: #FF9F00;
+	border:2px solid white;
 }
